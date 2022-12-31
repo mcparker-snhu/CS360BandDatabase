@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-public class ListActivity extends AppCompatActivity implements ListFragment.OnBandSelectedListener{
+public class ListActivity extends AppCompatActivity implements ListFragment.OnBandSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

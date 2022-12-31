@@ -1,17 +1,15 @@
 package com.snhu.cs360.banddatabase;
 
+import java.util.Objects;
+
 public class Band {
 
-    private int id;
+    private long id;
     private String name;
     private String description;
 
-    public int getId() {
+    public long getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -30,9 +28,34 @@ public class Band {
         this.description = description;
     }
 
-    public Band(int id, String name, String description) {
+    public Band(long id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
+    }
+
+    public Band(String name, String description){
+        this(-1, name, description);
+    }
+
+    public Band(long id, Band band){
+        this(id, band.name, band.description);
+    }
+
+    public Band(Band b) {
+        this(b.id, b.name, b.description);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Band band = (Band) o;
+        return id == band.id && Objects.equals(name, band.name) && Objects.equals(description, band.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, description);
     }
 }

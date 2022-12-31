@@ -5,11 +5,33 @@
         <item>The Beatles</item>
         <item>Nirvana</item>
         <item>U2</item>
+        <item>The Beach Boys</item>
+        <item>Bee Gees</item>
+        <item>Bon Jovi</item>
+        <item>Depeche Mode</item>
+        <item>Duran Duran</item>
+        <item>Green Day</item>
+        <item>Led Zeppelin</item>
+        <item>One Republic</item>
+        <item>R.E.M.</item>
+        <item>Metallica</item>
+        <item>Poisin</item>
     </string-array>
 
     <string-array name="descriptions">
         <item>An English rock band that formed in Liverpool in 1960.</item>
         <item>An American rock band that formed in Washington in 1987.</item>
         <item>An Irish rock band from Dublin that formed in 1976.</item>
+        <item>The Beach Boys info</item>
+        <item>Bee Gees info</item>
+        <item>Bon Jovi info</item>
+        <item>Depeche Mode info</item>
+        <item>Duran Duran info</item>
+        <item>Green Day info</item>
+        <item>Led Zeppelin info</item>
+        <item>One Republic info</item>
+        <item>R.E.M. info</item>
+        <item>Metallica info</item>
+        <item>Poisin info</item>
     </string-array>
 </resources>
